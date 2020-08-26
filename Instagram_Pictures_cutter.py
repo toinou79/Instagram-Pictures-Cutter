@@ -2,12 +2,12 @@
 from PIL import Image
 
 #récupère l'image original
-image_original = Image.open( str( input( "Entre le nom de l\'image mise au préalable dans le meme dossier que ce programme" ) ) )
+image_original = Image.open( str( input( "Entre le nom de l\'image mise au préalable dans le meme dossier que ce programme : " ) ) )
 
 #récupère les dimensions (en pixel) de l'image
 longueur, largeur = image_original.size
 
-#crée les variables de haut et bas 
+#crée les variables de haut et bas
 haut = 0
 bas = largeur
 
